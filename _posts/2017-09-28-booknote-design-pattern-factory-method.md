@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default 
 title: "读书笔记 图解设计模式 工厂方法模式"
 categories: 设计模式
 ---

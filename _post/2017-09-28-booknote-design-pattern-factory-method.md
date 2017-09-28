@@ -1,10 +1,8 @@
 ---
-
 layout: post
 title: "读书笔记 图解设计模式 工厂方法模式"
-date: 2017-09-28 15:16:01 +8
+date: 2017-09-28 15:16:01 +0800
 categories: book java
-
 ---
 
 # Factory Method模式——工厂方法模式

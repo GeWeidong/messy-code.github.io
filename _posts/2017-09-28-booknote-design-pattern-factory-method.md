@@ -12,7 +12,7 @@ categories: 设计模式
 
 ## 示例程序
 
-``` java
+```java
     // Product.java
     package framework;
     public abstract class Product {

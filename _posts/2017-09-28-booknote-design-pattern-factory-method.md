@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: "读书笔记 图解设计模式 工厂方法模式"
+title: "读书笔记 图解设计模式 交给子类 工厂方法模式"
 categories: 设计模式
 ---
 
@@ -12,7 +12,7 @@ categories: 设计模式
 
 ## 示例程序
 
-```Java
+``` java
     // Product.java
     package framework;
     public abstract class Product {
@@ -113,14 +113,14 @@ categories: 设计模式
 * ConcreteCreator具体的创建者
 
     ConcreteCreator角色属于具体加工这一方，负责生成具体的产品。
-    
+
 ## 思路
 * 框架与具体加工
     
     采用“框架”与“具体加工”方式，在不修改框架的情况下，可以创建出其他产品。
     
     在framework包中，没有引入idcard包。在Product类和Factory类中，也没有出现IdCard和IdCardFactory等具体类的名字。
-    
+
 * 生成实例——方法的三种实现方式
     
     在示例程序中，Factory类的createProduct方法是抽象方法，需要在子类中实现该方法。有以下3中：
@@ -135,7 +135,7 @@ categories: 设计模式
     * 在其中抛出异常
 
         在其中抛出异常，如果子类没有实现将产生异常
-        
+
 * 使用模式与开发人员之间的沟通
 
 ## 相关的设计模式

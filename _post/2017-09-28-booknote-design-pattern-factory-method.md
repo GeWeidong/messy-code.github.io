@@ -3,7 +3,7 @@
 layout: post
 title: "读书笔记 图解设计模式 工厂方法模式"
 date: 2017-09-28 15:16:01 +8
-categories: 读书笔记 设计模式 java
+categories: book java
 
 ---
 
